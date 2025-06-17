@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Bavanagaran_R-portfolio/static/css/main.1dff92a2.css",
-    "main.js": "/Bavanagaran_R-portfolio/static/js/main.b75caa17.js",
+    "main.css": "/Bavanagaran_R-portfolio/static/css/main.02bdc6cb.css",
+    "main.js": "/Bavanagaran_R-portfolio/static/js/main.ba77192e.js",
     "static/media/Amazon.png": "/Bavanagaran_R-portfolio/static/media/Amazon.f71eb388f2882ecd039c.png",
     "static/media/header.jpg": "/Bavanagaran_R-portfolio/static/media/header.1af4f8e9da993a441410.jpg",
     "static/media/kfc.png": "/Bavanagaran_R-portfolio/static/media/kfc.b29d122aa3a95eece8c9.png",
@@ -26,11 +26,11 @@
     "static/media/actToDo.png": "/Bavanagaran_R-portfolio/static/media/actToDo.951c36a86829dbaa6274.png",
     "static/media/tictactoe.png": "/Bavanagaran_R-portfolio/static/media/tictactoe.f81f5f37df327a197f3b.png",
     "index.html": "/Bavanagaran_R-portfolio/index.html",
-    "main.1dff92a2.css.map": "/Bavanagaran_R-portfolio/static/css/main.1dff92a2.css.map",
-    "main.b75caa17.js.map": "/Bavanagaran_R-portfolio/static/js/main.b75caa17.js.map"
+    "main.02bdc6cb.css.map": "/Bavanagaran_R-portfolio/static/css/main.02bdc6cb.css.map",
+    "main.ba77192e.js.map": "/Bavanagaran_R-portfolio/static/js/main.ba77192e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1dff92a2.css",
-    "static/js/main.b75caa17.js"
+    "static/css/main.02bdc6cb.css",
+    "static/js/main.ba77192e.js"
   ]
 }
