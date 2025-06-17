@@ -59,33 +59,60 @@ const Contact = () => {
         {/* Contact Form Section */}
         <div>
           <h3 className="text-xl font-bold text-white mb-4">SEND US A NOTE</h3>
-          <form action="#" className="space-y-4">
-            <div className="flex space-x-4">
-              <input
-                type="text"
-                placeholder="Name"
-                className="w-1/2 p-3 bg-gray-800 rounded text-gray-400 focus:outline-none"
-              />
-              <input
-                type="email"
-                placeholder="Email"
-                className="w-1/2 p-3 bg-gray-800 rounded text-gray-400 focus:outline-none"
-              />
-            </div>
-            <textarea
-              rows="5"
-              placeholder="Tell us more about your needs........"
-              className="w-full p-3 bg-gray-800 rounded text-gray-400 focus:outline-none"
-            ></textarea>
-            <div className="flex justify-center">
-              <button
-                type="submit"
-                className="bg-orange-500 hover:bg-orange-600 text-white py-3 px-6 rounded-full transition duration-300"
-              >
-                Send Message
-              </button>
-            </div>
-          </form>
+        <form
+  action="https://formsubmit.co/bavanab42@gmail.com"
+  method="POST"
+  className="space-y-4"
+>
+  {/* Disable CAPTCHA */}
+  <input type="hidden" name="_captcha" value="false" />
+
+  {/* Redirect after submit */}
+  <input
+    type="hidden"
+    name="_next"
+    value="https://bavanagaranr.github.io/Bavanagaran_R-portfolio/#/thankyou"
+  />
+
+  {/* Name & Email Inputs */}
+  <div className="flex space-x-4">
+    <input
+      type="text"
+      name="name"
+      required
+      placeholder="Name"
+      className="w-1/2 p-3 bg-gray-800 rounded text-gray-400 focus:outline-none"
+    />
+    <input
+      type="email"
+      name="email"
+      required
+      placeholder="Email"
+      className="w-1/2 p-3 bg-gray-800 rounded text-gray-400 focus:outline-none"
+    />
+  </div>
+
+  {/* Message Textarea */}
+  <textarea
+    rows="5"
+    name="message"
+    required
+    placeholder="Tell us more about your needs........"
+    className="w-full p-3 bg-gray-800 rounded text-gray-400 focus:outline-none"
+  ></textarea>
+
+  {/* Submit Button */}
+  <div className="flex justify-center">
+    <button
+      type="submit"
+      className="bg-orange-500 hover:bg-orange-600 text-white py-3 px-6 rounded-full transition duration-300"
+    >
+      Send Message
+    </button>
+  </div>
+</form>
+
+
         </div>
       </div>
     </section>
