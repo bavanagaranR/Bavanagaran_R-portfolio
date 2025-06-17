@@ -2,6 +2,7 @@
   "name": "bavanagaran-potfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bavanagaranr.github.io/Bavanagaran_R-portfolio",
   "dependencies": {
     "@heroicons/react": "^2.1.3",
     "@testing-library/jest-dom": "^5.17.0",
@@ -27,6 +28,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

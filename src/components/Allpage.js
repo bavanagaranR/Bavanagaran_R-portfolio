@@ -22,12 +22,12 @@ const Allpage = () => {
         <div className="lg:hidden sticky top-0 left-0 right-0 z-50 ">
           <Header />
         </div>
-        <Hero />
-        <About />
-        <Project />
-        <Resume />
-        <Contact />
-        <Footer />
+       <section id="home"><Hero /></section>
+<section id="about"><About /></section>
+<section id="project"><Project /></section>
+<section id="resume"><Resume /></section>
+<section id="contact"><Contact /></section>
+
 
 
 
